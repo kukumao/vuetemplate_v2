@@ -1,0 +1,15 @@
+/** ---------------------- scss变量 ------------------------ */
+// 基础字体
+$--base-font-size: 14px;
+$--base-font-line-height: 1.1;
+// 基础颜色
+$--base-background-color: #f6f7fb;
+$--base-dark-color: #2D3349; // 深色(背景
+$--base-dark-bgcolor: #3D445F; // 中深色（背景
+$--base-font-grop: #9B9EAC;  // 导航浅色字
+$--base-middle-dark-color: #666666; // 中深色
+$--base-light-dark-color: #999999; // 浅色
+$--base-color: $--base-dark-color; // 全局颜色
+$--base-hover-color: #409EFF; // 文字hover颜色
+$--head-background-color: #fafafa;
+$--common-border-color: #e8e8e8;

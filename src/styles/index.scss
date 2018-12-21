@@ -1,0 +1,17 @@
+// 项目通用样式
+@import './common.scss';
+@import './variables.scss';
+@import './mixin.scss';
+@import './element-variables.scss';
+
+body {
+  height: 100%;
+  color: $--base-color;
+  font-size: $--base-font-size;
+  line-height: $--base-font-line-height;
+  background: $--base-background-color;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: PingFang SC, Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}

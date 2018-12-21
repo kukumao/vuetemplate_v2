@@ -1,0 +1,25 @@
+[
+  {
+    "menuKey": "second__activityList",
+    "label": "菜单2.1",
+    "order": 1,
+    "menuUrl": "/activity-list",
+    "parentKey": "",
+    "appId": 30,
+    "subMenus": [
+      {
+        "menuKey": "activityList",
+        "label": "列表",
+        "order": 1,
+        "menuUrl": "/activity-list/index",
+        "parentKey": "second__activityList",
+        "appId": 30,
+        "subMenus": [],
+        "button": false,
+        "newPage": false
+      }
+    ],
+    "button": false,
+    "newPage": false
+  }
+]

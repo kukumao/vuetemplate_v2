@@ -1,0 +1,75 @@
+/*修改表格样式*/
+.el-table--striped .el-table__body tr.el-table__row--striped td{
+  background-color: #F9F9F9;
+}
+.el-table{
+  color: #333;
+  border: 1px solid #ebeef5;
+  border-bottom: none;
+}
+.el-table thead th{
+  background-color: #F6F6F6;
+  color: #999999;
+}
+.el-table--mini td{
+  padding: 3px 0;
+}
+.el-table--mini th{
+  padding: 8px 0;
+}
+/*分页默认样式修改*/
+.el-pagination.is-background .el-pager li{
+  background-color: #fff;
+  border: 1px solid #CECECE;
+}
+/*弹框默认样式修改*/
+.el-dialog__header{
+  padding: 8px 20px;
+  background: #F4F5F6;
+  box-shadow: 0 1px 0 0 #E8E8E8;
+  border-radius: 3px 3px 0 0;
+}
+.el-dialog__title{
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #121212;
+}
+.el-dialog__headerbtn{
+  top: 11px;
+}
+.el-dialog__footer{
+  background-color: #FAFAFA;
+  padding: 12px 20px;
+  text-align: right;
+}
+/*输入框认样式修改*/
+.el-input-group__append{
+  padding: 0 6px;
+  background-color: #FFFFFF;
+}
+/*表单默认样式修改*/
+.el-form-item__label,
+.el-input__inner,
+.el-radio__label,
+.el-textarea__inner,
+.el-input-group__append{
+  font-size: 12px;
+}
+/*按钮默认样式*/
+.el-button--default.el-button--small{
+  border-color: #619AFF;
+  color: #619AFF;
+}
+.el-button--default.el-button--small.el-button--primary{
+  border-color: #619AFF;
+  color: #FFFFFF;
+}
+/*左侧导航默认样式*/
+.el-submenu .el-menu-item{
+  height: 40px;
+  line-height: 40px;
+}
+.el-submenu__title{
+  height: 40px;
+  line-height: 40px;
+}

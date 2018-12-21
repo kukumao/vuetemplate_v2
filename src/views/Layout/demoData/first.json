@@ -1,0 +1,48 @@
+[
+  {
+    "menuKey": "first__memberList",
+    "label": "菜单1.1",
+    "order": 1,
+    "menuUrl": "/member-list",
+    "parentKey": "",
+    "appId": 30,
+    "subMenus": [
+      {
+        "menuKey": "memberListIndex",
+        "label": "列表",
+        "order": 1,
+        "menuUrl": "/member-list/index",
+        "parentKey": "first__memberList",
+        "appId": 30,
+        "subMenus": [],
+        "button": false,
+        "newPage": false
+      }
+    ],
+    "button": false,
+    "newPage": false
+  },
+  {
+    "menuKey": "first__memberLevel",
+    "label": "菜单1.2",
+    "order": 2,
+    "menuUrl": "/member-level",
+    "parentKey": "",
+    "appId": 30,
+    "subMenus": [
+      {
+        "menuKey": "memberLevelRule",
+        "label": "列表",
+        "order": 1,
+        "menuUrl": "/member-level/member-level-rule",
+        "parentKey": "first__memberLevel",
+        "appId": 30,
+        "subMenus": [],
+        "button": false,
+        "newPage": false
+      }
+    ],
+    "button": false,
+    "newPage": false
+  }
+]
