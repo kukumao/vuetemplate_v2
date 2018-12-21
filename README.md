@@ -1,0 +1,1 @@
+# vuetemplate_v2
